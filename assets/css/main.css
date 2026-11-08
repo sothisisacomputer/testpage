@@ -1940,10 +1940,14 @@ input, select, textarea {
 		display: inline-block;
 	}
 
+		#logo img {
+			border-radius: 16px;
+		}
+
 		#logo h1 {
 			background: #ff4486;
 			color: #fff;
-			border-radius: 12px;
+			border-radius: 6px;
 			font-family: 'Oleo Script', serif;
 			font-weight: 400;
 			padding: 0.25em 0.2em 0.25em 0.2em;
