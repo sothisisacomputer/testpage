@@ -1929,6 +1929,9 @@ input, select, textarea {
 
 	#header {
 		position: relative;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 	}
 
 /* Logo */
@@ -1962,9 +1965,6 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		position: absolute;
-		right: 0;
-		top: 0;
 		font-size: 0.9em;
 	}
 
