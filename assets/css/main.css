@@ -87,6 +87,7 @@ input, select, textarea {
 	}
 
 	body {
+		/*
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
 		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
@@ -98,6 +99,14 @@ input, select, textarea {
 		font-family: 'Open Sans', sans-serif;
 		font-size: 13pt;
 		color: #e0e0e0;
+		font-weight: 300;
+		line-height: 2.25em;
+		*/
+		background-image: none !important;
+		background-color: #2b2b2b !important;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 13pt;
+		color: #dcdcdc;
 		font-weight: 300;
 		line-height: 2.25em;
 	}
